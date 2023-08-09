@@ -32,3 +32,8 @@ cat > Test
 <Enter your content>
 <Ctrl + D to exit>
 
+
+---
+
+## **Reading File Contents**
+
