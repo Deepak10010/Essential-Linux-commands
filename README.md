@@ -27,3 +27,8 @@ To create a new file, you can use the `cat` command followed by the `>` redirect
 
 ```bash
 cat > filename
+
+cat > Test
+<Enter your content>
+<Ctrl + D to exit>
+
