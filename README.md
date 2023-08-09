@@ -35,5 +35,5 @@ cat > Test
 
 ---
 
-## **Reading File Contents**
+## Reading File Contents
 
