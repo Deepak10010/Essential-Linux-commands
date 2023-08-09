@@ -1,39 +1,40 @@
-# Linux Command Cheat Sheet
+# Basic Linux Commands Cheat Sheet
 
-A comprehensive guide to essential Linux command-line operations for beginners.
+This cheat sheet provides a quick reference for some basic Linux commands that are useful for file and directory manipulation. These commands are often used in the command-line interface (CLI) of a Linux system.
 
 ## Table of Contents
 
-- [Creating Files](#creating-files)
-- [Reading File Contents](#reading-file-contents)
-- [Listing Files](#listing-files)
-- [Removing Files](#removing-files)
-- [Creating Empty Files](#creating-empty-files)
-- [Creating Files with vi Editor](#creating-files-with-vi-editor)
-- [Working with Directories](#working-with-directories)
-- [Navigating Directories](#navigating-directories)
-- [Moving Between Directories](#moving-between-directories)
-- [Creating Nested Directories](#creating-nested-directories)
-- [Jumping to Home Directory](#jumping-to-home-directory)
-- [Viewing Detailed Information](#viewing-detailed-information)
-- [Viewing Hidden Files](#viewing-hidden-files)
-- [Copying File Contents](#copying-file-contents)
+- [Creating and Managing Files](#creating-and-managing-files)
+  - [Create a New File](#create-a-new-file)
+  - [Read and Display File Contents](#read-and-display-file-contents)
+  - [List Files and Directories](#list-files-and-directories)
+  - [Remove a File](#remove-a-file)
+  - [Create an Empty File](#create-an-empty-file)
+  - [Create and Edit a File Using Vim](#create-and-edit-a-file-using-vim)
+  
+- [Managing Directories](#managing-directories)
+  - [Check Current Directory Path](#check-current-directory-path)
+  - [Create a New Directory](#create-a-new-directory)
+  - [Remove an Empty Directory](#remove-an-empty-directory)
+  - [Change to a Different Directory](#change-to-a-different-directory)
+  - [Move to the Parent Directory](#move-to-the-parent-directory)
+  - [Remove a Non-Empty Directory](#remove-a-non-empty-directory)
+  - [Create Nested Directories](#create-nested-directories)
+  
+- [Additional Commands](#additional-commands)
+  - [Navigate to the Home Directory](#navigate-to-the-home-directory)
+  - [List Files and Directories with Details](#list-files-and-directories-with-details)
+  - [Display All Files (Including Hidden)](#display-all-files-including-hidden)
+  - [List Files and Directories with Detailed Information](#list-files-and-directories-with-detailed-information)
+  - [Copy a File to Another Location](#copy-a-file-to-another-location)
 
----
+## Creating and Managing Files
 
-## Creating Files
+### Create a New File
 
-To create a new file, you can use the `cat` command followed by the `>` redirection operator:
-
-```bash
+Use the `cat` command to create a new file:
+```sh
 cat > filename
 
-cat > Test
-<Enter your content>
-<Ctrl + D to exit>
 
-
----
-
-## Reading File Contents
 
